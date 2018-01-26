@@ -6,6 +6,7 @@
     <string name="izbrisi_stranicu">Izbrisi stranicu</string>
     <string name="izbrisi_vlasnika">Izbrisi vlasnika</string>
     <string name="idStranice">Ovdje unesite ID stranice koju zelite izbrisati.</string>
-    <string name="idStranice">Ovdje unesite ID vlasnika kojeg zelite izbrisati.</string>
+    <string name="idVlasnika">Ovdje unesite ID vlasnika kojeg zelite izbrisati.</string>
     <string name="izbrisi">Izbrisi</string>
+    <string name="prikazi">Prikazi adresu trece stranice.</string>
 </resources>

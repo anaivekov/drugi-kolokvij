@@ -177,4 +177,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    public void displayTheThirdSite(View view) {
+        try {
+            Intent k = new Intent(this, Main5Activity.class);
+            startActivity(k);
+        } catch (Exception e) {
+        }
+    }
+
 }

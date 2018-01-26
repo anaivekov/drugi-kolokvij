@@ -43,6 +43,13 @@ http://schemas.android.com/tools ">
         android:onClick="deleteSomeOwner"
         android:text="@string/izbrisi_vlasnika" />
 
+    <Button
+        android:id="@+id/ispisTreceStr"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="displayTheThirdSite"
+        android:text="@string/prikazi" />
+
 
 
 </LinearLayout>

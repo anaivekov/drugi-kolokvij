@@ -17,8 +17,8 @@ public class DBAdapter {
 
     static final String TAG = "DBAdapter";
 
-    static final String DATABASE_NAME = "MyDatabase";
-    static final int DATABASE_VERSION = 3;
+    static final String DATABASE_NAME = "BazaPodataka";
+    static final int DATABASE_VERSION = 6;
 
     static final String KEY_ID = "ID";
 
@@ -31,9 +31,9 @@ public class DBAdapter {
     static final String DATABASE_TABLE_STRANICE = "stranice";
     static final String DATABASE_TABLE_VLASNICI = "vlasnici";
 
-    static final String CREATE_TABLE_STRANICE = "create table stranice (ID integer primary key autoincrement," + "ADRESA text not null, VRSTA text not null);";
+    static final String CREATE_TABLE_STRANICE = "create table stranice (ID integer primary key autoincrement," + "ADRESA text not null unique, VRSTA text not null);";
 
-    static final String CREATE_TABLE_VLASNICI = "create table vlasnici (ID_VLASNIKA integer primary key autoincrement," + "ID_STRANICE integer);";
+    static final String CREATE_TABLE_VLASNICI = "create table vlasnici (ID_VLASNIKA integer primary key autoincrement," + "ID_STRANICE integer unique);";
 
     final Context context;
 
