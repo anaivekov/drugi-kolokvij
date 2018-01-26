@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrugiKolokvij</string>
+    <string name="adresa_teksta">Ovdje upisite adresu zeljene datoteke.</string>
+    <string name="skini_datoteku">Preuzmi</string>
+    <string name="ispisi_podatke">Ispisi podatke</string>
+    <string name="izbrisi_stranicu">Izbrisi stranicu</string>
+    <string name="izbrisi_vlasnika">Izbrisi vlasnika</string>
+    <string name="idStranice">Ovdje unesite ID stranice koju zelite izbrisati.</string>
+    <string name="idStranice">Ovdje unesite ID vlasnika kojeg zelite izbrisati.</string>
+    <string name="izbrisi">Izbrisi</string>
+</resources>

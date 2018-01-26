@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" tools:context="hr.math.drugikolokvij.MainActivity"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.android.com/apk/res/android
+http://schemas.android.com/apk/res-auto
+http://schemas.android.com/tools ">
+
+    <EditText
+        android:id="@+id/download_address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:text="@string/adresa_teksta"/>
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="downloadWantedText"
+        android:text="@string/skini_datoteku" />
+
+    <Button
+        android:id="@+id/show_data"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="showData"
+        android:text="@string/ispisi_podatke" />
+
+    <Button
+        android:id="@+id/show_data"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="deleteSomeSite"
+        android:text="@string/izbrisi_stranicu" />
+
+    <Button
+        android:id="@+id/show_data"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:onClick="deleteSomeOwner"
+        android:text="@string/izbrisi_vlasnika" />
+
+
+
+</LinearLayout>
